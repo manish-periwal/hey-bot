@@ -5,8 +5,8 @@
 //const APIAI_TOKEN = config.APIAI_TOKEN ;
 //const WEATHER_API_KEY = config.WEATHER_API_KEY;
 
-const accountSid = config.accountSid ;
-const authToken =config.authToken ;
+//const accountSid = config.accountSid ;
+//const authToken =config.authToken ;
 
 console.log(PAGE_ACCESS_TOKEN);
 console.log(APIAI_TOKEN);
