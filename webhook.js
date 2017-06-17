@@ -19,7 +19,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const server = app.listen(process.env.PORT || 5000, () => {
+const server = app.listen(OPENSHIFT_NODEJS_PORT || 5000, () => {
         console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
 });
 
