@@ -1,9 +1,9 @@
 'use strict';
 
-var config = require("./config.js");
-const PAGE_ACCESS_TOKEN = config.PAGE_ACCESS_TOKEN;
-const APIAI_TOKEN = config.APIAI_TOKEN ;
-const WEATHER_API_KEY = config.WEATHER_API_KEY;
+//var config = require("./config.js");
+//const PAGE_ACCESS_TOKEN = config.PAGE_ACCESS_TOKEN;
+//const APIAI_TOKEN = config.APIAI_TOKEN ;
+//const WEATHER_API_KEY = config.WEATHER_API_KEY;
 
 const accountSid = config.accountSid ;
 const authToken =config.authToken ;
